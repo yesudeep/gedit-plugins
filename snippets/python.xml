@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="python">
+  <snippet override="python-py">
+    <text><![CDATA[#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+$0]]></text>
+    <tag>py</tag>
+    <description>#!/usr/bin/env python</description>
+  </snippet>
+  <snippet override="python-main">
+    <text><![CDATA[if __name__ == '__main__':
+	${1:sys.exit(main())}
+
+$0]]></text>
+    <tag>ifmain</tag>
+    <description>main</description>
+  </snippet>
+  <snippet override="python-class">
+    <text><![CDATA[class ${1:ClassName}(${2:object}):
+
+	def __init__(self${3:,}):
+		${4:pass}
+
+$0]]></text>
+    <tag>class</tag>
+    <description>New Class</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[${1}_JS_FILES =  Split("""
+		${0}
+    script/${1}.js
+""")
+${1}_JS_FILES = [SRC_DIR + f for f in ${1}_JS_FILES]
+page_${1}_js = env.Concatenate([DEST_DIR + 'script/page/${1}.js'], ${1}_JS_FILES)
+env.YuiCompressorMinify(page_${1}_js)
+#env.JsminMinify(page_${1}_js)
+]]></text>
+    <tag>jsjoin</tag>
+    <description>js_join</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[${1}.${2} = self.request.get('${2}')$0]]></text>
+    <tag>req</tag>
+    <description>request assign</description>
+  </snippet>
+</snippets>

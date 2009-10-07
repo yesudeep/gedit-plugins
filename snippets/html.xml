@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="html">
+  <snippet>
+    <text><![CDATA[<label for="$1">
+  <span class="prefix">$2</span>
+  <input type="${3:text}" name="$1" value="$4" />
+  <span class="suffix">$5</span>
+</label>
+$0]]></text>
+    <tag>label</tag>
+    <description>Label</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[{% block $1 %}$0{% endblock %}]]></text>
+    <tag>block</tag>
+    <description>block</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[{% extends "${1}" %}
+$0]]></text>
+    <tag>extends</tag>
+    <description>extends</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<select name="$1">
+$0
+</select>
+]]></text>
+    <tag>select</tag>
+    <description>Select</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<option value="$1">$2</option>$0]]></text>
+    <tag>option</tag>
+    <description>Option</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[{% for $1 in $2 %}
+$0
+{% endfor %}]]></text>
+    <tag>for</tag>
+    <description>for</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[{% if $1 %}$0{% endif %}]]></text>
+    <tag>if</tag>
+    <description>if</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[{% else %}$0]]></text>
+    <tag>else</tag>
+    <description>else</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<$1 $2>${0:$GEDIT_SELECTED_TEXT}</$1>]]></text>
+    <tag>tag</tag>
+    <description>tag</description>
+    <accelerator><![CDATA[<Control><Alt>t]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[{{ ${1:$GEDIT_SELECTED_TEXT} }}$0]]></text>
+    <tag>var</tag>
+    <description>var</description>
+  </snippet>
+</snippets>
