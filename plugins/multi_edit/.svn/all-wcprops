@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/multi-edit/!svn/ver/31/trunk/multi_edit
+END
+me_window.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/multi-edit/!svn/ver/31/trunk/multi_edit/me_window.py
+END
+config.glade
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/multi-edit/!svn/ver/28/trunk/multi_edit/config.glade
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/multi-edit/!svn/ver/28/trunk/multi_edit/__init__.py
+END
+release_notes
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/multi-edit/!svn/ver/31/trunk/multi_edit/release_notes
+END
+me_config.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/multi-edit/!svn/ver/28/trunk/multi_edit/me_config.py
+END
+auto_incr.glade
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/multi-edit/!svn/ver/26/trunk/multi_edit/auto_incr.glade
+END
